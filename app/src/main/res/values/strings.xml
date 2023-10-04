@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ScanText ML</string>
+
+    //Variables para la actividad Menu Principal
+    <string name="btnReconocer">Reconocer Texto</string>
+    <string name="btnAcercaDe">Acerca de</string>
+    <string name="btnSalir">Salir</string>
+
+    //Variables para actividad Main Activity
+    <string name="ReconocerTexto">Reconocer texto</string>
+    <string name="ReconocerTXT">Texto reconocido: </string>
+    <string name="textoReconocidoEt"> -- </string>
+
+    //Variables opciones reconocimiento
+    <string name="menu_abrir_galeria">Abrir galeria</string>
+    <string name="menu_abrir_camara">Abrir camara</string>
+
+    //Variables para opcion Acerca de
+    <string name="DesarrolladoTxt">Desarrollado por:</string>
+    <string name="NombreTxt"> Freddy Arreaga M.</string>
+    <string name="EmailTxt"> Email: fnam_1999@outlook.com </string>
+    <string name="VersionTxt"> Versión 1.0 </string>
+    <string name="btnEntendido"> Entendido </string>
+</resources>
