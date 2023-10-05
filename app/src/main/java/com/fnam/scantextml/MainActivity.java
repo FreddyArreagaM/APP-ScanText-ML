@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
         btnReconocerTexto = findViewById(R.id.btnReconocerTexto);
         imagen = findViewById(R.id.imagen);
-        textoReconocido = findViewById(R.id.textoReconocidoEt);
+        textoReconocido = findViewById(R.id.textoReconocido);
         progressDialog = new ProgressDialog(this);
         progressDialog.setTitle("Espere por favor");
         progressDialog.setCanceledOnTouchOutside(false);
@@ -168,7 +168,7 @@ public class MainActivity extends AppCompatActivity {
             openGaleria();
         }else{
             if(item.getItemId() == R.id.menu_abrir_camara){
-                Toast.makeText(this, "Abrir Cámara", Toast.LENGTH_SHORT).show();
+                openCamara();
             }
         }
         return super.onOptionsItemSelected(item);
